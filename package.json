@@ -46,9 +46,6 @@
     "ts-jest": "^29.0.3"
   },
   "lint-staged": {
-    "apps/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
-    ],
     "packages/ui/**/*.{js,ts,jsx,tsx}": [
       "eslint --fix"
     ]
