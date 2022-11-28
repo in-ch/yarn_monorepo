@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": "packages/common-utils"
+    },
+    {
       "path": "packages/common-components"
     },
     {

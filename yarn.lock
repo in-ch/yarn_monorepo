@@ -643,6 +643,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@common/utils@workspace:*, @common/utils@workspace:packages/common-utils":
+  version: 0.0.0-use.local
+  resolution: "@common/utils@workspace:packages/common-utils"
+  languageName: unknown
+  linkType: soft
+
 "@cspotcode/source-map-support@npm:^0.8.0":
   version: 0.8.1
   resolution: "@cspotcode/source-map-support@npm:0.8.1"
@@ -5720,6 +5726,7 @@ __metadata:
   resolution: "package-a@workspace:packages/package-a"
   dependencies:
     "@common/components": "workspace:*"
+    "@common/utils": "workspace:*"
     "@types/node": 18.11.9
     "@types/react": 18.0.25
     "@types/react-dom": 18.0.9

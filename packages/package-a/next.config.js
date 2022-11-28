@@ -5,7 +5,7 @@ const nextConfig = {
   swcMinify: true,
 };
 
-const withTM = require('next-transpile-modules')(['@common/components']);
+const withTM = require('next-transpile-modules')(['@common/components', '@common/utils']);
 module.exports = withTM({
   nextConfig,
 });
