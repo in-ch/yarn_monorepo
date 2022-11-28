@@ -5408,6 +5408,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"package-b@workspace:packages/package-b":
+  version: 0.0.0-use.local
+  resolution: "package-b@workspace:packages/package-b"
+  dependencies:
+    "@types/node": 18.11.9
+    "@types/react": 18.0.25
+    "@types/react-dom": 18.0.9
+    next: 13.0.5
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: 4.9.3
+  languageName: unknown
+  linkType: soft
+
 "parent-module@npm:^1.0.0":
   version: 1.0.1
   resolution: "parent-module@npm:1.0.1"

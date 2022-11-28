@@ -14,7 +14,8 @@
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "jest --watchAll --verbose",
-    "prototype-a": "yarn workspace package-a dev"
+    "prototype-a:dev": "yarn workspace package-a dev",
+    "prototype-b:dev": "yarn workspace package-b dev"
   },
   "dependencies": {
     "@types/node": "18.11.9",

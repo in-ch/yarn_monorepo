@@ -1,8 +1,5 @@
-import Head from 'next/head';
-import Image from 'next/image';
+const Home = () => {
+  return <p>Prototype a project</p>;
+};
 
-export default function Home() {
-  return (
-    <p>Hello world</p>
-  );
-}
+export default Home;
