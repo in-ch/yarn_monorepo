@@ -42,6 +42,9 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/jsx-props-no-spreading': ['error', { custom: 'ignore' }],
     'react/no-unescaped-entities': 'off',
+    'import/namespace': 'off',
+    'import/no-duplicates': 'off',
+    'import/no-unresolved': 'off',
     'react/function-component-definition': [
       2,
       {

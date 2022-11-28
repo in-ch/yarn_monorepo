@@ -13,7 +13,14 @@
     "module": "esnext",
     "isolatedModules": true
   },
-  "references": [],
+  "references": [
+    {
+      "path": "packages/package-1"
+    },
+    {
+      "path": "packages/package-2"
+    }
+  ],
   "exclude": ["packages/**/dist/**"],
   "include": []
 }
