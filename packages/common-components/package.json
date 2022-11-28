@@ -1,0 +1,25 @@
+{
+  "name": "@common/components",
+  "packageManager": "yarn@3.3.0",
+  "main": "app/index.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint -c .eslintrc.js --ext .jsx,.js,.json,.ts,.tsx ."
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.7.1",
+    "@emotion/core": "^11.0.0",
+    "@emotion/css": "^11.9.0",
+    "@emotion/react": "^11.6.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.3"
+  }
+}

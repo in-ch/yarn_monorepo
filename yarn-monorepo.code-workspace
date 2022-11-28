@@ -4,10 +4,10 @@
       "path": "packages/common-components"
     },
     {
-      "path": "packages/prototype-1"
+      "path": "packages/prototype-a"
     },
     {
-      "path": "packages/prototype-2"
+      "path": "packages/prototype-b"
     }
   ],
   "settings": {

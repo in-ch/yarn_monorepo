@@ -15,10 +15,10 @@
   },
   "references": [
     {
-      "path": "packages/package-1"
+      "path": "packages/package-a"
     },
     {
-      "path": "packages/package-2"
+      "path": "packages/package-b"
     }
   ],
   "exclude": ["packages/**/dist/**"],
