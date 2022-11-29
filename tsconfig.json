@@ -19,6 +19,12 @@
     },
     {
       "path": "packages/package-b"
+    },
+    {
+      "path": "packages/common-utils"
+    },
+    {
+      "path": "packages/common-components"
     }
   ],
   "exclude": ["packages/**/dist/**"],
